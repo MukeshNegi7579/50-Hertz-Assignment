@@ -1,0 +1,38 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+.form input, .form button {
+    padding: 15px;
+    border-radius: 50px;
+    outline: none;
+    border: none;
+}
+.form input {
+    margin-bottom: 15px;
+}
+
+.form .error {
+    color: #fc5656;
+    text-align: left;
+    font-size: 12px;
+    padding-left: 20px;
+}
+
+.form button {
+    background-color: #fc5656;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 600;
+    cursor: pointer;
+}

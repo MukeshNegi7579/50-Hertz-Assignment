@@ -1,0 +1,28 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    box-sizing: border-box;
+}
+.form * {
+    width: 100%;
+}
+.form input, .form select {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+.form label {
+    text-align: left;
+}
+
+.form .error {
+    color: #fc5656;
+    text-align: left;
+    font-size: 12px;
+}
+
+.form button {
+    margin-top: 10px;
+    padding: 10px;
+}

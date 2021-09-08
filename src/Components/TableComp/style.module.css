@@ -1,0 +1,38 @@
+.wrapper {
+    background-color: #ffffff;
+}
+
+h3 {
+    text-align: left;
+    margin-top: 0px
+}
+
+table {
+    width: 100%;
+}
+
+table th {
+    text-transform: Uppercase;
+}
+
+table tr td {
+    white-space: nowrap;
+}
+
+table tr:nth-child(odd) td {
+    background: rgb(170, 169, 169)
+}
+
+table tr th {
+    background: grey
+}
+
+.responsive {
+    overflow-x: auto;
+}
+
+@media screen and (max-width: 768px) {
+    table {
+        overflow-y: hidden;
+    }
+}

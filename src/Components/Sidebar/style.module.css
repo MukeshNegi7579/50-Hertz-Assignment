@@ -1,0 +1,32 @@
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    color: #ffffff;
+    transition: all 0.5s;
+    width: 200px;
+}
+
+.collapseSidebar {
+    flex-grow: 0;
+    width: 40px;
+    transition: all 0.5s;
+}
+
+.logo {
+    height: 56px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    background-color: #121452;
+
+}
+.linkWrapper {
+    display: flex;
+    flex-direction: column;
+    padding-top: 24px;
+}
+
+.linkWrapper a {
+    padding: 10px 0px;
+    text-decoration: none;
+}
